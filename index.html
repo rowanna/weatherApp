@@ -11,6 +11,16 @@
 </head>
 <body>
     <h1>TODAY'S WEATHER</h1>
-    <script src="./src/js/common.js"></script>
+    <form action="">
+        <input class="cityInput" type="text" placeholder="도시를 영문으로 입력하세요!" />
+        <button class="inputBtn" type="button">검색</button>
+        <button class="curPosition" type="button">현재위치</button>
+    </form>
+    <div class="infoBox">
+        <div class="cityName"></div>
+        <div class="weather"></div>
+        <div class="temp"></div>
+    </div>
+    <script type="module" src="./src/js/common.js"></script>
 </body>
 </html>
